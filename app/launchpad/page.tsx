@@ -124,7 +124,7 @@ function LaunchCard({
         <div>
           <div className="text-white/60">Timeline</div>
           <div className="font-semibold">
-            {formatDate(sale.startTime)} -> {formatDate(sale.endTime)}
+            {formatDate(sale.startTime)} {'->'} {formatDate(sale.endTime)}
           </div>
         </div>
       </div>
