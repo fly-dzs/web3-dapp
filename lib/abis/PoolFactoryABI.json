@@ -1,0 +1,40 @@
+[
+  {
+    "inputs": [
+      {"name": "tokenA", "type": "address"},
+      {"name": "tokenB", "type": "address"},
+      {"name": "amountA", "type": "uint256"},
+      {"name": "amountB", "type": "uint256"},
+      {"name": "amountAMin", "type": "uint256"},
+      {"name": "amountBMin", "type": "uint256"},
+      {"name": "to", "type": "address"},
+      {"name": "deadline", "type": "uint256"}
+    ],
+    "name": "addLiquidity",
+    "outputs": [
+      {"name": "amountAAdded", "type": "uint256"},
+      {"name": "amountBAdded", "type": "uint256"},
+      {"name": "liquidity", "type": "uint256"}
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"name": "tokenA", "type": "address"},
+      {"name": "tokenB", "type": "address"},
+      {"name": "liquidity", "type": "uint256"},
+      {"name": "amountAMin", "type": "uint256"},
+      {"name": "amountBMin", "type": "uint256"},
+      {"name": "to", "type": "address"},
+      {"name": "deadline", "type": "uint256"}
+    ],
+    "name": "removeLiquidity",
+    "outputs": [
+      {"name": "amountA", "type": "uint256"},
+      {"name": "amountB", "type": "uint256"}
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
